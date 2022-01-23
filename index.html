@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/player.js"></script>
+<script src="js/game.js"></script>
+
+   
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+
+<!--Add database config here below-->
+<script>
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBfTjkCsgpMbyoZULn351kLzyDZC_--4j8",
+  authDomain: "fruit-catcher-ec8b4.firebaseapp.com",
+  projectId: "fruit-catcher-ec8b4",
+  storageBucket: "fruit-catcher-ec8b4.appspot.com",
+  messagingSenderId: "169549335050",
+  appId: "1:169549335050:web:c6caa8e72bd504e9d56df3"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+</script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
